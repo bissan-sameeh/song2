@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
-                    margin: const EdgeInsets.symmetric(vertical: 155),
+                    margin: const EdgeInsets.symmetric(vertical: 150),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -112,7 +112,7 @@ class MyApp extends StatelessWidget {
                   ),
                   Container(
                     margin: const EdgeInsets.symmetric(
-                        horizontal: 10, vertical: 12),
+                        horizontal: 10, vertical: 20),
                     width: 40,
                     height: 40,
                     decoration: BoxDecoration(
@@ -180,8 +180,9 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               Container(
+                margin: const EdgeInsets.symmetric(horizontal: 5),
                 decoration: BoxDecoration(
-                    color: Colors.blue[100],
+                    color: Colors.blue[50],
                     borderRadius: BorderRadius.circular(25)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -212,22 +213,12 @@ class MyApp extends StatelessWidget {
                       width: 40,
                       height: 40,
                       decoration: BoxDecoration(
-                          color: Colors.grey[200],
-                          borderRadius: BorderRadius.circular(100),
-                          boxShadow: const [
-                            BoxShadow(
-                              offset: Offset(10, 10),
-                              blurRadius: 10,
-                              color: Colors.grey,
-                            ),
-                            BoxShadow(
-                                offset: Offset(-5, -5),
-                                blurRadius: 10,
-                                color: Colors.white),
-                          ]),
+                        color: Colors.blue[200],
+                        borderRadius: BorderRadius.circular(100),
+                      ),
                       child: Icon(
-                        Icons.play_arrow_rounded,
-                        color: Colors.grey[500],
+                        Icons.stop,
+                        color: Colors.white,
                       ),
                     ),
                   ],
@@ -331,9 +322,9 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
-                    margin: EdgeInsets.symmetric(vertical: 20),
-                    width: 90,
-                    height: 90,
+                    margin: const EdgeInsets.symmetric(vertical: 20),
+                    width: 70,
+                    height: 70,
                     decoration: BoxDecoration(
                       color: Colors.grey[100],
                       borderRadius: BorderRadius.circular(100),
@@ -354,9 +345,9 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.symmetric(vertical: 10),
-                    width: 90,
-                    height: 90,
+                    margin: const EdgeInsets.symmetric(vertical: 10),
+                    width: 70,
+                    height: 70,
                     decoration: BoxDecoration(
                       color: Colors.blue[100],
                       borderRadius: BorderRadius.circular(100),
@@ -371,15 +362,15 @@ class MyApp extends StatelessWidget {
                       //       blurRadius: 10),
                       // ],
                     ),
-                    child: Icon(
+                    child: const Icon(
                       Icons.stop,
                       color: Colors.white,
                     ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 10),
-                    width: 90,
-                    height: 90,
+                    width: 70,
+                    height: 70,
                     decoration: BoxDecoration(
                       color: Colors.grey[100],
                       borderRadius: BorderRadius.circular(100),
