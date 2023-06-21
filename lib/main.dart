@@ -216,7 +216,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.blue[200],
                         borderRadius: BorderRadius.circular(100),
                       ),
-                      child: Icon(
+                      child: const Icon(
                         Icons.stop,
                         color: Colors.white,
                       ),
@@ -368,7 +368,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.symmetric(vertical: 10),
+                    margin: const EdgeInsets.symmetric(vertical: 10),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
